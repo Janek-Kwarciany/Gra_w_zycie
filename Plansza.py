@@ -12,3 +12,6 @@ class Plansza:
 
     def pobierz_komorke(self, x, y):
         return self.siatka[x][y] 
+
+    def pobierz_siatke(self):
+        return self.siatka

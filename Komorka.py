@@ -6,3 +6,6 @@ class Komorka:
 
     def zmien_stan(self, stan):
         self.zywa = stan
+
+    def pobierz_stan(self):
+         return self.zywa
