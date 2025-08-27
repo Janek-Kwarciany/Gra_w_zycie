@@ -1,4 +1,9 @@
-# Widok GUI
+from Obserwator import Obserwator
+from Plansza import Plansza
+from PyQt5.QtWidgets import QApplication, QWidget, QVBoxLayout, QGraphicsScene, QGraphicsView, QGraphicsRectItem, QLabel
+from PyQt5.QtCore import Qt, QTimer
+
+
 class GUIWidok(Obserwator):
     def __init__(self):
         # Konstruktor, który tworzy aplikację, okno i układ widoku

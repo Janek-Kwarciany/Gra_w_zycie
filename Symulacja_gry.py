@@ -1,3 +1,9 @@
+from Komorka import Komorka
+from Plansza import Plansza
+from Fabryka_komorek import FabrykaKomorek
+from Obserwator import Obserwator
+import sys
+
 # Symulacja gry
 class Symulacja:
     def __init__(self, plansza, obserwator):
